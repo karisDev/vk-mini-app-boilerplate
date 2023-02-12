@@ -22,7 +22,7 @@ import bridge from "@vkontakte/vk-bridge";
 import { set } from "./js/reducers/mainReducer";
 
 import DesktopNavigation from "./js/components/navigation/desktop";
-import MobileNavigation from "./js/components/navigation/mobail";
+import MobileNavigation from "./js/components/navigation/mobile";
 
 import HomeBotsListModal from "./js/components/modals/HomeBotsListModal";
 import HomeBotInfoModal from "./js/components/modals/HomeBotInfoModal";
