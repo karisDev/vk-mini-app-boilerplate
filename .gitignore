@@ -6,6 +6,7 @@ npm-debug.log*
 
 # Dependency directories
 package-lock.json
+pnpm-lock.yaml
 /node_modules
 
 # Optional npm cache directory
