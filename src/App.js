@@ -75,6 +75,8 @@ const App = withAdaptivity(
           <SplitLayout
             header={mainStorage.hasHeader && <PanelHeader separator={false} />}
             style={{ justifyContent: "center" }}
+            popout={router.popout}
+            modal={modals}
           >
             <SplitCol
               animate={!mainStorage.isDesktop}
@@ -93,8 +95,6 @@ const App = withAdaptivity(
                       ? "base"
                       : router.activePanel
                   }
-                  popout={router.popout}
-                  modal={modals}
                 >
                   <Panel id="base">
                     <Suspense fallback={<ScreenSpinner />}>
@@ -116,8 +116,6 @@ const App = withAdaptivity(
                       ? "base"
                       : router.activePanel
                   }
-                  popout={router.popout}
-                  modal={modals}
                 >
                   <Panel id="base">
                     <Suspense fallback={<ScreenSpinner />}>
